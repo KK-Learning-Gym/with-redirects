@@ -1,0 +1,9 @@
+[dev]
+autoLaunch=false
+
+[[redirects]]
+from = "/test"
+to = "https://www.netlify.com"
+status = 200
+
+
