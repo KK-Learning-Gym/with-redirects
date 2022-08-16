@@ -51,3 +51,21 @@ Website URL:       https://super-cool-site-by-keith-kevin99-yahoo-com-7564d.netl
     - Note: Redirect works in CLI
         - Run `ntl dev`
         - Go to `http://localhost:8888/test`. Be redirected to `netlify.com` as expected.
+
+
+
+System Config
+
+```
+npx envinfo --system --binaries --npmPackages netlify-cli --npmGlobalPackages netlify-cli
+
+  System:
+    OS: macOS 12.4
+    CPU: (8) arm64 Apple M1
+    Memory: 322.84 MB / 16.00 GB
+    Shell: 5.8.1 - /bin/zsh
+  Binaries:
+    Node: 16.15.1 - ~/.nvm/versions/node/v16.15.1/bin/node
+    npm: 8.11.0 - ~/.nvm/versions/node/v16.15.1/bin/npm
+    Watchman: 2022.08.08.00 - /opt/homebrew/bin/watchman
+```
